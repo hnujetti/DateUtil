@@ -14,6 +14,7 @@ public class DateUtil {
 		Month month = currentDate.getMonth();
 		int year = currentDate.getYear();
 		System.out.println("Today: " + day + "-" + month.getValue() + "-" + year);
+		System.out.println("Leap Year: " + currentDate.isLeapYear());
 		System.out.println("Day of year: " + dayOfYear + ", Week: " + dow);
 	}
 
